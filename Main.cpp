@@ -8,14 +8,14 @@ using namespace std;
 int main() {
 int n;
 
-		cout<< "Ingrese un numero entero: ";
-		cin >> n;
+	cout<< "Ingrese un numero entero: ";
+	cin >> n;
 
-		if ((n%2)==0){
-			cout<<"El numero ingresado es par";
-       }else{
-			cout<<"el numero es impar";
-		}
-	return 0;
+	if ((n%2)==0){
+		cout<<"El numero ingresado es par";
+	}else{
+		cout<<"el numero es impar";
+	}
+return 0;
 }
 
